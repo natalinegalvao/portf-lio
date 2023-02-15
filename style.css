@@ -1,58 +1,93 @@
 *{
-    margin:0;
+    margin: 0px;;
     padding: 0;
     box-sizing: border-box;
+ 
     text-decoration: none; 
 }
 
 body {
-    background-color: #f6f6f6;
-    margin: 500px;
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #2f2325 16.62, #8E5D52 85.61%);
+    background-color: #e65050;
+    font-size: 80%;
+    
 }
+
 .cabecalho{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-
+   align-items: 30px; 
+   justify-content: space-around;
+  background: #4da114;
+  padding: 50px ;
+  height: 90px;
+  font-size: 20px;
 }
-.cabecalho-imagem {
-    height: 73px;
-}
 
-.cabecalho-menu {
+nav{
     display: flex;
-
-
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+    
 }
-.conteudo-principal-escrito-botao {
-    background-color:#ECD6C4;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'saraola', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #2F2325;
-}
-.conteudo-principal-escrito-botao:hover {
-background-color: rgba(296, 214, 175 0.53);
-
+nav li{
+    display: inline;
+	margin:  50px;
 }
 
+.cabecalho-imagem {
+    width: 300px; 
+    height: 300px; 
+    display: block; 
+    margin-left:60%;
+    padding: 8px;
+   
+}
+.conteudo-principal-imagem{
+    width: 400px; 
+    height:300px; 
+    display: block;
+     margin: left 30px;
+     padding: 40px;
+}
+    .programar{
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-inline-end: 600px;
+    margin-top: 50px;
+    padding: 40px;
+  font-size: 15px;
+  margin-left: 400px;
+  
+} 
 
-.conteudo-principal-imagem { 
-    height: 430px;
+.lugar{
+    display: flex;
+    flex-direction:column;   
+    font-size: 20px;
+    padding:70px;
+    height: 30px;
+    background-color: aqua;
+    align-items: center;
+   
+ }
+ 
+.curssos{
+    color: rgb(10, 10, 10);
+   
+    margin-inline: 60px;
+    margin-block: 70px;
+    padding: 2px; 
+    justify-content: space-around;
+   font-size: 20px;    
+}
 
-}  
-
-
-
-
-
-
-
-
+.sobre-me{
+    margin-left: 300px;
+    margin-inline: 300px;
+    margin-block: 90px;
+    margin-block-start: 30px;
+    padding: 2px; 
+    font-size: 20px;
+   
+}
